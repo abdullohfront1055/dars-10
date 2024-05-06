@@ -1,5 +1,5 @@
-let son1 = Number(prompt("Son kiriting"));
-let son2 = Number(prompt("Ikkincji son kiriting"));
+let son1 = Number(prompt("Son1 kiriting:"));
+let son2 = Number(prompt("Son2 kiriting:"));
 
 function kattami() {
     if (son1 > son2) {
@@ -8,4 +8,6 @@ function kattami() {
         alert(son1 + " Kichik " + son2 + " dan");
     }
 }
+
+kattami()
 
